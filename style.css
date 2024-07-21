@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-image: url('2back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.landing, .second_page, .third_page, .ending {
+    background-image: url('main backround.png');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 20px;
+    color: white;
+}
+
+.imageguru {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.first {
+    color: #E178C5;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.second {
+    margin-top: 0;
+    color: #1679AB;
+    font-size: 2.5rem;
+}
+
+.Tribute {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .first {
+        font-size: 2rem;
+    }
+    .second {
+        font-size: 1.5rem;
+    }
+    .Tribute {
+        font-size: 1.2rem;
+    }
+}
+
+.desc {
+    font-size: 1.8rem;
+    color: #1679AB;
+}
+
+.links {
+    text-align: center;
+    padding: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: 2px solid #1679AB;
+    width: 150px;
+    border-radius: 12px;
+    height: 60px;
+    background-color: #F7418F;
+    margin: 10px;
+    line-height: 60px;
+}
+
+.ending {
+    padding: 40px 20px;
+}
+
+.albums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+}
+
+.albums h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #912BBC;
+    margin-bottom: 20px;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid white;
+}
+
+.note {
+    font-weight: 400;
+    font-size: small;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #E178C5;
+    height: auto;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer .container footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}

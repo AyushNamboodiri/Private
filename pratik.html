@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pratik.css">
+    <title>pratik sir page</title>
+</head>
+<body>
+   
+    <style>
+        .balloon {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background-color: #F7418F;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 200px;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            animation: popUp 1s ease-in-out forwards;
+        }
+
+        @keyframes popUp {
+            0% {
+                transform: translate(-50%, -50%) scale(0);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="balloon" id="balloon">Happy Guru Purnima</div>
+    <div class="fullscreen-background" id="backgroundImage"></div>
+    
+
+    <script src="teacher.js"></script>
+</body>
+</html>
+    
+</body>
+</html>
